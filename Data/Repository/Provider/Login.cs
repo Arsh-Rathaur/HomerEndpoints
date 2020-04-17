@@ -32,7 +32,11 @@ namespace Data.Repository.Provider
 
         public Users Read(Users User)
         {
-            var data = context.Users.Where(x => x.UserId == User.UserId && x.UserName == User.UserName).FirstOrDefault();
+            var data = context
+                        .Users
+                            .Where(x => x.UserId == User.UserId && x.UserName == User.UserName)
+                                .FirstOrDefault();
+
             if (data != null)
                 return data;
             else
