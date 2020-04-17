@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomerEndpoints", "HomerEndpoints.csproj", "{76793CED-B48E-48F0-8F5A-4EF593F09D4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{E092C5E2-E6CF-4D62-93CF-B31AF362A144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Data\Data.csproj", "{E092C5E2-E6CF-4D62-93CF-B31AF362A144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit_Homer", "..\NUnit_Homer\NUnit_Homer.csproj", "{D50D31A8-9103-400B-B08F-A3F1776F7670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E092C5E2-E6CF-4D62-93CF-B31AF362A144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E092C5E2-E6CF-4D62-93CF-B31AF362A144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E092C5E2-E6CF-4D62-93CF-B31AF362A144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50D31A8-9103-400B-B08F-A3F1776F7670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50D31A8-9103-400B-B08F-A3F1776F7670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50D31A8-9103-400B-B08F-A3F1776F7670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50D31A8-9103-400B-B08F-A3F1776F7670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
